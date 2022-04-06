@@ -40,15 +40,16 @@ nav{
 }
 
 .menu li a{
-    color: rgb(200, 200, 200);
     text-decoration: none;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
-.menu li a:hover{
-    transition: 0.7s;
-    color: white;
+
+
+#li-nav {
+    color:rgb(200, 200, 200);
 }
+
 
 .btni{
     border: 0;
@@ -59,12 +60,14 @@ nav{
     color: rgb(56, 56, 56);
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
-}
+    transition: all 0.3s ease-in-out;
+}  
 
 .btni:hover{
-    transition: 0.7s;
+    background: rgb(3, 112, 226);    
     color: white;
 }
+
 .btnc{
     border: 0;
     background: transparent;
@@ -75,9 +78,10 @@ nav{
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .btnc:hover{
-    transition: 0.7s;
+     border: 2px solid rgb(3, 112, 226);
     color: white;
 }
 

@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    place-content: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(56, 56, 56);
+    padding: 0 2rem;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.toggle{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 500px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu li a:hover{
+    transition: 0.7s;
+    color: white;
+}
+
+#li-nav {
+    color:rgb(200, 200, 200);
+}
+
+.btni{
+    border: 0;
+    background: rgb(200, 200, 200);
+    font-size: 15px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    color: rgb(56, 56, 56);
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.btni:hover{
+    transition: 0.7s;
+    color: white;
+}
+.btnc{
+    border: 0;
+    background: transparent;
+    border: 2px solid rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+    padding: 0.1rem 0.5rem;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.btnc:hover{
+    transition: 0.7s;
+    color: white;
+}
+
+.box-login {
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600; 
+    color: rgb(56, 56, 56);
+    position: absolute;
+    margin-top: 80px;
+}
+
+form {
+    z-index: 2;
+    text-align: center;
+    position: absolute;
+    margin-top: 250px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-class {
+    border-radius: 15px;
+    text-decoration: none;
+    border: 1.6px solid #c4c4c4;
+    height: 45px;
+    width: 350px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.input-class:focus {
+    border: 1.6px solid #565656;
+}
+
+#btn-connexion {
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid rgb(56, 56, 56);
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 500px;
+    background-color: transparent;
+    color:rgb(56, 56, 56);
+    transition: all 0.3s ease-in-out; 
+    font-size: 20px;
+}
+
+#btn-connexion:hover {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}

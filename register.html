@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectWeb-Register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Rowdies:wght@300&display=swap');</style>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Roboto+Mono:wght@200&family=Rowdies:wght@300&display=swap');</style>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="toggle">
+                <box-icon name='menu' color='#c8c8c8'></box-icon>
+                <box-icon name='x' color='#c8c8c8'></box-icon>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"><box-icon name='apple' type='logo' color='#c8c8c8'></box-icon></a></li>
+                <li><a id="li-nav" href="#">Iphone</a></li>
+                <li><a id="li-nav"href="#">Airpods</a></li>
+                <li><a id="li-nav"href="#">MacBook</a></li>
+                <li><a href="#"><box-icon name='basket' color='#c8c8c8' ></box-icon></a></li>
+                <li><a href="register.html" class="btni">Inscription</a></li>
+                <li><a href="login.html" class="btnc">Connexion</a></li>
+                <li><a href="#"><box-icon name='search' color='#c8c8c8' ></box-icon></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Inscription</h1>
+    <form>
+        <input class="input-class-name" TYPE="text" name="prenom" placeholder="Prénom">
+        <input class="input-class-name" TYPE="text" name="nom" placeholder="Nom"><br>
+        <label class="lab-date">Date de naissance</label><br>
+        <input class="input-class-date" TYPE="date" name="date"><br>
+        <input class="input-class" TYPE="email" name="email" placeholder="Email"><br>
+        <input class="input-class" TYPE="password" name="password" placeholder="Password"><br>
+        <input class="input-class" TYPE="password" name="password" placeholder="Password">
+    </form>
+
+    <button id="btn-connexion">Inscription</button>
+</body>
+</html>
