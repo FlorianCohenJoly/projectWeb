@@ -116,7 +116,7 @@ form {
     font-family: 'Open Sans', sans-serif;
 }
 
-.input-class {
+#input-class {
     border-radius: 15px;
     text-decoration: none;
     border: 1.6px solid #c4c4c4;
@@ -129,11 +129,11 @@ form {
     transition: all 0.3s ease-in-out;
 }
 
-.input-class:focus, .input-class-name:focus, .input-class-date:focus {
+#input-class:focus, #input-class-name:focus, #input-class-date:focus {
     border: 1.6px solid #565656;
 }
 
-.input-class-name {
+#input-class-name {
     width: 160px;
     border-radius: 15px;
     text-decoration: none;
@@ -146,7 +146,7 @@ form {
     transition: all 0.3s ease-in-out;
 }
 
-.input-class-date {
+#input-class-date {
     width: 160px;
     border-radius: 15px;
     text-decoration: none;

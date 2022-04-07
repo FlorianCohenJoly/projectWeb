@@ -35,15 +35,16 @@
 
     <h1>Inscription</h1>
     <form>
-        <input class="input-class-name" TYPE="text" name="prenom" placeholder="Prénom">
-        <input class="input-class-name" TYPE="text" name="nom" placeholder="Nom"><br>
-        <label class="lab-date">Date de naissance</label><br>
-        <input class="input-class-date" TYPE="date" name="date"><br>
-        <input class="input-class" TYPE="email" name="email" placeholder="Email"><br>
-        <input class="input-class" TYPE="password" name="password" placeholder="Password"><br>
-        <input class="input-class" TYPE="password" name="password" placeholder="Password">
+        <input class="prenom" id="input-class-name" TYPE="text" name="prenom" placeholder="Prénom">
+        <input class="nom" id="input-class-name" TYPE="text" name="nom" placeholder="Nom"><br>
+        <label  class="lab-date">Date de naissance</label><br>
+        <input class="date" id="input-class-date" TYPE="date" name="date"><br>
+        <input class="email" id="input-class" TYPE="email" name="email" placeholder="Email"><br>
+        <input class="password" id="input-class" TYPE="password" name="password" placeholder="Password"><br>
     </form>
 
-    <button id="btn-connexion">Inscription</button>
+    <button id="btn-connexion" onclick="getInputValue()">Inscription</button>
+
+    <script src="register.js"></script>
 </body>
 </html>
