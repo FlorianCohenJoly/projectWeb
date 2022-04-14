@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    place-content: center;
+    place-content: center; 
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
 
@@ -37,7 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    width: 500px;
+    width: 630px;
 }
 
 .menu li a{
@@ -63,12 +63,14 @@ nav{
     color: rgb(56, 56, 56);
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
-}
+    transition: all 0.3s ease-in-out;
+}  
 
 .btni:hover{
-    transition: 0.7s;
+    background: rgb(3, 112, 226);    
     color: white;
 }
+
 .btnc{
     border: 0;
     background: transparent;
@@ -79,10 +81,36 @@ nav{
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .btnc:hover{
-    transition: 0.7s;
+     border: 2px solid rgb(3, 112, 226);
     color: white;
+}
+
+
+#icon-search {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+#search-input {
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: 2px solid #c4c4c4;
+    background-color: transparent;
+    color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#search-input:focus {
+    outline: 2px solid rgb(3, 112, 226);
 }
 
 .box-login {
@@ -113,7 +141,8 @@ form {
     font-family: 'Open Sans', sans-serif;
 }
 
-.input-class {
+
+#input-class {
     border-radius: 15px;
     text-decoration: none;
     border: 1.6px solid #c4c4c4;
@@ -123,9 +152,10 @@ form {
     padding-left: 10px;
     padding-right: 10px;
     outline: none;
+    transition: all 0.3s ease-in-out;
 }
 
-.input-class:focus {
+#input-class:focus {
     border: 1.6px solid #565656;
 }
 

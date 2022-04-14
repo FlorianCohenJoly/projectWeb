@@ -20,26 +20,27 @@
                 <box-icon name='x' color='#c8c8c8'></box-icon>
             </div>
             <ul class="menu">
-                <li><a href="#index.html"><box-icon name='apple' type='logo' color='#c8c8c8'></box-icon></a></li>
+                <li><a href="index.html"><box-icon name='apple' type='logo' color='#c8c8c8'></box-icon></a></li>
                 <li><a id="li-nav" href="#">Iphone</a></li>
                 <li><a id="li-nav"href="#">Airpods</a></li>
                 <li><a id="li-nav"href="#">MacBook</a></li>
                 <li><a href="#"><box-icon name='basket' color='#c8c8c8' ></box-icon></a></li>
                 <li><a href="register.html" class="btni">Inscription</a></li>
                 <li><a href="login.html" class="btnc">Connexion</a></li>
-                <li><a href="#"><box-icon name='search' color='#c8c8c8' ></box-icon></a></li>
+                <li><a><box-icon id="icon-search" name='search' color='#c8c8c8' ></box-icon> <input type="text" name="search" id="search-input" placeholder="Rechercher..."></input></a></li>
             </ul>
-        </nav>
+        </nav>  
     </header>
 
   
     <h1>Connectez-vous pour régler vos achats plus rapidement.</h1>
     <form>
-        <input class="input-class" TYPE="email" name="email" placeholder="Email"><br>
-        <input class="input-class" TYPE="password" name="password" placeholder="Password">
+        <input class="email" id="input-class" TYPE="email" name="email" placeholder="Email"><br>
+        <input class="password"id="input-class" TYPE="password" name="password" placeholder="Password">
     </form>
 
-    <button id="btn-connexion">Connexion</button>
+    <button id="btn-connexion" onclick="getInputLoginValue()">Connexion</button>
+    <script src="login.js"></script>
     
 </body>
 </html>

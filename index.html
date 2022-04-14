@@ -5,7 +5,6 @@
   <title>ProjetWeb</title>
   <meta name="viewport" content="width=device=width,initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <script src="script.js"></script>
   <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
   <style> @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Rowdies:wght@300&display=swap');</style>
 <style>@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Roboto+Mono:wght@200&family=Rowdies:wght@300&display=swap');</style>
@@ -26,7 +25,8 @@
                 <li><a href="#"><box-icon name='basket' color='#c8c8c8' ></box-icon></a></li>
                 <li><a href="register.html" class="btni">Inscription</a></li>
                 <li><a href="login.html" class="btnc">Connexion</a></li>
-                <li><a href="#"><box-icon name='search' color='#c8c8c8' ></box-icon></a></li>
+                <li><a><box-icon id="icon-search" name='search' color='#c8c8c8' ></box-icon> <input type="text" name="search" id="search-input" placeholder="Rechercher...""></input></a></li>
+               
 
             </ul>
         </nav>
@@ -60,50 +60,50 @@
 
 <section>
 <div class="parent">
-    <div class="div1">
+    <div id="products" class="div1">
         <img src="ressources/compare_iphone_13__fqzwhmfmroey_small_2x.jpg"><br>
         <p class="nv">Nouveau</p>
-        <h2>Iphone 13 Pro</h2>
+        <h2 class="product-name">Iphone 13 Pro</h2>
         <h3>L'iphone ultime</h3><br>
         <p>A partir de 1158 €</p><br>
         <button class="btna">Acheter</button><br>
     </div>
-    <div class="div2">
+    <div id="products" class="div2">
         <img src="ressources/color_front_yellow__cja2t2hwgcty_small_2x.jpg"><br>
         <p class="nv">Nouveau</p>
-        <h2>iMac24</h2>
+        <h2 class="product-name">iMac24</h2>
         <h3>Le Mac ultime</h3><br>
         <p>A partir de 1449 €</p><br>
         <button class="btna">Acheter</button><br>
     </div>
-    <div class="div3"> 
+    <div id="products" class="div3"> 
         <img src="ressources/airpods_max__f265q4g4ddym_small_2x.png" width="200px" height="200px"><br>
         <p class="nv">Nouveau</p>
-        <h2>Airpods</h2>
+        <h2 class="product-name"></h2>Airpods</h2>
         <h3>Max</h3><br>
         <p>A partir de 650 €</p><br>
         <button class="btna">Acheter</button><br>
     </div>
-    <div class="div4">
+    <div id="products" class="div4">
     <img src="ressources/compare_airpods_3rd_gen__dyuzfy04ht0m_small_2x.png"><br>
     <p class="nv">Nouveau</p>
-        <h2>Airpods</h2>
+        <h2 class="product-name">Airpods</h2>
         <h3>3eme génération</h3><br>
         <p>A partir de 300 €</p><br>
         <button class="btna">Acheter</button><br>
     </div>
-    <div class="div5"> 
+    <div id="products" class="div5"> 
         <img src="ressources/color_front_blue__x3psx2ttezmi_small_2x.jpg" ><br>
         <p class="nv">Nouveau</p>
-        <h2>iMac 24</h2>
+        <h2 class="product-name">iMac 24</h2>
         <h3>Le Mac ultime</h3><br>
         <p>A partir de 1449 €</p><br>
         <button class="btna">Acheter</button><br>
     </div>
-    <div class="div6"> 
+    <div id="products" class="div6"> 
         <img src="ressources/compare_iphone_se__d5blqx1pgymq_small_2x.jpg"><br>
         <p class="nv">Nouveau</p>
-        <h2>Iphone Se</h2>
+        <h2 class="product-name">Iphone Se</h2>
         <h3>Puissance xl, Prix Se</h3><br>
         <p>A partir de 529 €</p><br>
         <button class="btna">Acheter</button><br>
@@ -111,7 +111,7 @@
 </div>
 </section>
 
-
+<script src="script.js"></script>
 
 </body>
 </html>

@@ -28,7 +28,7 @@
                 <li><a href="#"><box-icon name='basket' color='#c8c8c8' ></box-icon></a></li>
                 <li><a href="register.html" class="btni">Inscription</a></li>
                 <li><a href="login.html" class="btnc">Connexion</a></li>
-                <li><a href="#"><box-icon name='search' color='#c8c8c8' ></box-icon></a></li>
+                <li><a><box-icon id="icon-search" name='search' color='#c8c8c8' ></box-icon> <input type="text" name="search" id="search-input" placeholder="Rechercher..."></input></a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,7 @@
         <input class="password" id="input-class" TYPE="password" name="password" placeholder="Password"><br>
     </form>
 
-    <button id="btn-connexion" onclick="getInputValue()">Inscription</button>
+    <button id="btn-connexion" onclick="getInputRegisterValue()">Inscription</button>
 
     <script src="register.js"></script>
 </body>
